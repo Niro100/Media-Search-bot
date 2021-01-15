@@ -59,7 +59,7 @@ async def answer(bot, query):
                            next_offset=str(next_offset))
     else:
 
-        switch_pm_text = f'{emoji.CROSS_MARK} No results'
+        switch_pm_text = f'{emoji.CROSS_MARK} ඔයා හොයන එක අපි ගාව නැ හෝ ඔබ යෙදු අකුරු නිවැරදිද බලන්න'
         if string:
             switch_pm_text += f' for "{string}"'
 
