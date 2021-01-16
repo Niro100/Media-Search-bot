@@ -20,7 +20,7 @@ async def start(bot, message):
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply(START_MSG, reply_markup=reply_markup)
+        await message.reply(START_MSG.format(username=user.username, first_name=user.first_name, last_name=user.last_name))
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
