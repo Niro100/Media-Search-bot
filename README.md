@@ -40,7 +40,7 @@ Check `sample_info.py` before editing `info.py` file
 * `USE_CAPTION_FILTER`: Whether bot should use captions to improve search results. (True/False)
 * `AUTH_USERS`: Username or ID of users to give access of inline search. Separate multiple users by space. Leave it empty if you don't want to restrict bot usage.
 * `AUTH_CHANNEL`: Username or ID of channel. Without subscribing this channel users cannot use bot.
-* `INVITE_MSG`: Auth channel invitation message මෙන්න මෙක දාන්න {username} ඉන්වයිට් මෑසෙජ් එකට එතකොට user ge username පෙන්නවා.
+* `INVITE_MSG`: Auth channel invitation message මෙන්න මෙක දාන්න {first_name} {last_name} ඉන්වයිට් මෑසෙජ් එකට එතකොට user ගේ ෆස්ට් නේම ලාස්ට් නේම් මැසෙජ් එකේ පෙන්නවා පෙන්නවා.
 
 ### Admin commands
 ```
