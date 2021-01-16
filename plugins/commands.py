@@ -20,6 +20,7 @@ async def start(bot, message):
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        user = message.from_user 
         await message.reply(START_MSG.format(username=user.username, first_name=user.first_name, last_name=user.last_name))
 
 
