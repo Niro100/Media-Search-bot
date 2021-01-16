@@ -12,7 +12,8 @@ logger = logging.getLogger(__name__)
 async def start(bot, message):
     """Start command handler"""
     if len(message.command) > 1 and message.command[1] == 'subscribe':
-        await message.reply(INVITE_MSG.format(username=message.from_user.username))
+        user = message.from_user
+        await message.reply(INVITE_MSG.format(username=user.username, first_name=user.first_name, last_name=user.last_name))
     else:
         buttons = [[
             InlineKeyboardButton('Click To Search 👆', switch_inline_query_current_chat=''),
