@@ -45,7 +45,9 @@ Here you can search files in inline mode. Just press following buttons and start
 
 SHARE_BUTTON_TEXT = """
 Checkout {username} for searching files.
-                     Hey 🙋‍♂ If you want get Inline Search Sinhala mod for your owne Bot 🤖
-                     Plz contact me :- @Delta_theta
+
+Hey 🙋‍♂ If you want get Inline Search Sinhala mod for your owne Bot 🤖
+
+Plz contact me :- @Delta_theta
 """
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
