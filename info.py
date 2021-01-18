@@ -49,5 +49,7 @@ Checkout {username} for searching files.
 Hey 🙋‍♂ If you want get Inline Search Sinhala mod for your owne Bot 🤖
 
 Plz contact me :- @Delta_theta
+
+Project of SSB
 """
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
