@@ -48,7 +48,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} Results"
+        switch_pm_text = f"{emoji.FILE_FOLDER} අවසානයට අප්ඩෙට් කරපු ෆයිල්ස් 👇 "
         if string:
             switch_pm_text += f" for {string}"
 
