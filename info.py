@@ -30,10 +30,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm NFLK Media Search bot**
 
+මගෙන් Movies ලබා ගන්න පහල Inline button එක Click කරන්න 👇 
+ඒක Touch කරාම එන message type කරන තැන එන search option එක use කරලා ඔයාට ඕන Movie එක හොයා ගන්න
 Here you can search files in inline mode. Just press following buttons and start searching.
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
-INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
+INVITE_MSG = environ.get('INVITE_MSG', 'Please join @ProjectNetflixLK to use this bot')
