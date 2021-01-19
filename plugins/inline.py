@@ -20,6 +20,7 @@ async def answer(bot, query):
                            cache_time=0,
                            switch_pm_text= """
  ඔයා අපේ චනල් එක සබ් කරලා නැ
+
  සබ් කරන්න මෙක උඩ ක්ලික් කරන්න
 """,
                            switch_pm_parameter="subscribe")
