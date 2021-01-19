@@ -30,13 +30,15 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi {first_name} , I'm NFLK Search Bot**
+**Hi {first_name}  {last_name}
 
 **Hi මම තමයි NFLK Media Files Search Bot**
 
 Here you can search files in inline mode. Just press following buttons and start searching.
 
-ඔයාට මාව භාවිතා කරලා පහසුවෙන් Media Files Search කර ලබා ගන්න පුලුවන්
+ඔයාට මාව භාවිතා කරලා පහසුවෙන් Media Files Search කර ලබා ගන්න පුලුවන් 😉👍
+
+Bot එකේ Search කරනකොට නිවැරදි නම Type කරන්න.🔎
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
