@@ -15,7 +15,7 @@ async def start(bot, message):
         await message.reply(INVITE_MSG)
     else:
         buttons = [[
-            InlineKeyboardButton('Search කරන්න🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Search කරන්න 🔎', switch_inline_query_current_chat=''),
  
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -98,6 +98,6 @@ async def delete(bot, message):
         'caption': reply.caption
     })
     if result.deleted_count:
-        await msg.edit('File is successfully deleted from database')
+        await msg.edit('මෙම File එක database එකෙන් Delete කලා')
     else:
-        await msg.edit('File not found in database')
+        await msg.edit('database එකෙන් එවැනි File එකක් හමු නොවුනි.')
